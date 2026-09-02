@@ -147,25 +147,25 @@ global, or system level.
 Example:
 
 ``` text
-credential.https://git.acdp.at.provider=generic
+credential.https://git.somecompany.at.provider=generic
 ```
 
 Remove it globally:
 
 ``` bash
-git config --global --unset credential.https://git.acdp.at.provider
+git config --global --unset credential.https://git.somecompany.at.provider
 ```
 
 If it exists only in the current repository:
 
 ``` bash
-git config --unset credential.https://git.acdp.at.provider
+git config --unset credential.https://git.somecompany.at.provider
 ```
 
 If it is system-wide:
 
 ``` bash
-sudo git config --system --unset credential.https://git.acdp.at.provider
+sudo git config --system --unset credential.https://git.somecompany.at.provider
 ```
 
 ------------------------------------------------------------------------
