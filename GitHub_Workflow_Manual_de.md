@@ -149,25 +149,25 @@ oder systemweit vorkommt.
 Beispiel:
 
 ``` text
-credential.https://git.acdp.at.provider=generic
+credential.https://git.somecompany.at.provider=generic
 ```
 
 Global entfernen:
 
 ``` bash
-git config --global --unset credential.https://git.acdp.at.provider
+git config --global --unset credential.https://git.somecompany.at.provider
 ```
 
 Falls der Eintrag nur im aktuellen Repository liegt:
 
 ``` bash
-git config --unset credential.https://git.acdp.at.provider
+git config --unset credential.https://git.somecompany.at.provider
 ```
 
 Systemweit:
 
 ``` bash
-sudo git config --system --unset credential.https://git.acdp.at.provider
+sudo git config --system --unset credential.https://git.somecompany.at.provider
 ```
 
 ------------------------------------------------------------------------
