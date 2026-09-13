@@ -12,6 +12,9 @@ More manuals will be added in the future!
 
 - [GitHub Workflow EN](GitHub_Workflow_Guide_EN.md)
 - [GitHub Workflow DE](GitHub_Workflow_Manual_de.md)
+- [Python VENV Install DE](Python_Virtual_Environment_Anleitung_DE.md)
+- [Python VENV Install EN](Python_Virtual_Environment_Guide_EN.md)
+- [Ubuntu/RPi OS Create Autostart](python_systemd_ubuntu_raspberry_pi_os.md)
 
 
 ```text
@@ -19,6 +22,9 @@ manuals/
 ├── README.md
 ├── GitHub_Workflow_Guide_EN.md
 ├── GitHub_Workflow_Manual_de.md
+├── Python_Virtual_Environment_Anleitung_DE.md
+├── Python_Virtual_Environment_Guide_EN.md
+├── python_systemd_ubuntu_raspberry_pi_os.md
 ```
 
 ## Usage
